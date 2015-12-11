@@ -9,7 +9,20 @@
   <version>1.0-SNAPSHOT</version>
   <name>GWT Maven Archetype</name>
 
+     <repositories>
+		<repository>
+			<id>goog</id>
+			<url>http://gwt-maven.googlecode.com/svn/trunk/mavenrepo</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
   <properties>
+  
     <!-- Convenience property to set the GWT version -->
     <gwtVersion>2.6.1</gwtVersion>
     <!-- GWT needs at least java 1.5 -->
