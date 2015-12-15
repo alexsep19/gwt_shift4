@@ -40,7 +40,7 @@ public class gwt_shift implements EntryPoint {
    * This is the entry point method.
    */
   public void onModuleLoad() {
-    final Button sendButton = new Button( "ggg5ggggg" );
+    final Button sendButton = new Button( "ggg5g6gggg" );
     final TextBox nameField = new TextBox();
     nameField.setText( "5555566" );
     final Label errorLabel = new Label();
