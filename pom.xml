@@ -9,7 +9,7 @@
   <version>1.0-SNAPSHOT</version>
   <name>GWT Maven Archetype</name>
 
-     <repositories>
+<!--      <repositories>
 		<repository>
 			<id>goog</id>
 			<url>http://gwt-maven.googlecode.com/svn/trunk/mavenrepo</url>
@@ -21,11 +21,11 @@
 			</snapshots>
 		</repository>
 	</repositories>
+	 -->
   <properties>
-  
      <gwtVersion>2.6.1</gwtVersion>
-   <webappDirectory>${project.build.directory}/${project.build.finalName}</webappDirectory>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+     <webappDirectory>${project.build.directory}/${project.build.finalName}</webappDirectory>
+     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
   <dependencies>
