@@ -3,3 +3,6 @@ target
 !.settings/.jsdtscope
 .project
 .classpath
+/target/
+/target/
+/target/
